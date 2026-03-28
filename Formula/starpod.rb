@@ -2,25 +2,25 @@ class Starpod < Formula
   desc "Personal AI assistant platform"
   homepage "https://starpod.sh"
   license "MIT"
-  version "0.1.7"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.1.7/starpod-v0.1.7-aarch64-apple-darwin.tar.gz"
-      sha256 "53ccf27f789a45af79332924ea0ef02b4c10af5d46480f23cd972247df3958c6"
+      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.2.0/starpod-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ffb1f7543c82ac6715f98002dcc78864031cc156f1a1b86309a736f1bb894d48"
     else
-      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.1.7/starpod-v0.1.7-x86_64-apple-darwin.tar.gz"
-      sha256 "c5a63038ffbb0325233a0dc2418125547273c5b439a38845b156be108398154a"
+      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.2.0/starpod-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1a4bba9cf5ff6b09364fc98a8cc09b9ac7291388b5dc7c0ef335556f4d234e0e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.1.7/starpod-v0.1.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "064d26f3d2bc886811a057708acf86e1172b3e3433bf3fbf4218d77184176626"
+      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.2.0/starpod-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5dde3b9e93d63405ba3cf2e5dcaaeeaac8abb0a7b4bcb1ac36ce565017edbbde"
     else
-      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.1.7/starpod-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e6066950639e8ba7b59a01396473d3e3bfe1ce37025a11c296723e1db1204c09"
+      url "https://github.com/sinaptik-ai/starpod/releases/download/v0.2.0/starpod-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7f959950690173a663a0e0af1bd0484767ac468f00cadfe4cea0a2dcecf43961"
     end
   end
 
